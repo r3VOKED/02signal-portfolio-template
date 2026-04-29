@@ -8,7 +8,7 @@ REVGloss Detailing - automotive beauty services -->
 ## My Automations
 
 ### Week 1
-**What I built:** **What it does:** **Link to workflow:** [Click here to view workflow](PASTE_YOUR_LINK_HERE)
+**BotFatheri Telegram bot:** **Basic bot setup** **Link to workflow:** [Click here to view workflow]([PASTE_YOUR_LINK_HERE](https://github.com/r3VOKED/02signal-portfolio-template/blob/main/workflows/week1.json))
 
 ### Week 2
 **What I built:** **What it does:** **Link to workflow:** [Click here to view workflow](PASTE_YOUR_LINK_HERE)
