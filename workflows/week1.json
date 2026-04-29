@@ -1,0 +1,64 @@
+{
+  "name": "My workflow 6",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "7f75ecf9-654a-4eed-88f3-c34bd1029dfd",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "chatId": "7896611042",
+        "text": "Tere! See on minu esimene automatiseeritud sõnum! 🎉",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        208,
+        0
+      ],
+      "id": "36eecc21-257f-46c8-a528-4863e6483f5e",
+      "name": "Send a text message",
+      "webhookId": "60b0879d-8ad2-4a28-8ee2-5f4785ece311",
+      "credentials": {
+        "telegramApi": {
+          "id": "JmkysdTmVbz7up2J",
+          "name": "Telegram account 4"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Send a text message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "f439fb5e-c55a-4cb3-a51b-69975b98791f",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "5949fab626268d8b88b21dc50348a43b1823770fe66fe1bcebd9d5e1e0dd23d0"
+  },
+  "id": "gFmjAqvxgWCx4ngR",
+  "tags": []
+}
