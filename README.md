@@ -1,7 +1,7 @@
-# [Your Name] — Portfolio
+# [Tarmo] — Portfolio
 
 ## About Me
-Replace this with a short intro about yourself and your business -->
+REVGloss Detailing - automotive beauty services -->
 
 ---
 
